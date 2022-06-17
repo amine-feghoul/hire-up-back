@@ -1,0 +1,31 @@
+candidateProfile={
+    full_name:'',
+    birthdate:'',
+    address:'',
+    nationality:'',
+    phone:'',
+    profile_pic:'',
+    about:'',
+    salary:'',
+    position:'',
+    experience_years:'', 
+    educations:[{
+        degree,
+        institute,
+        start_date,
+        end_date
+    },],
+    experiences:[
+        {
+            company,
+            job_title,
+            start_date,
+            end_date,
+            is_present,
+            description
+        }
+    ],
+    skills:[
+        "",""
+    ]
+}

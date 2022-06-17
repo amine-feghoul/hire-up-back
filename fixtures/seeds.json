@@ -1,0 +1,329 @@
+[
+  {
+    "model": "authapp.userType",
+    "pk": 1,
+    "fields": {
+      "type": "admin"
+    }
+  },
+  {
+    "model": "authapp.userType",
+    "pk": 2,
+    "fields": {
+      "type": "candidate"
+    }
+  },
+
+  {
+    "model": "authapp.userType",
+    "pk": 3,
+    "fields": {
+      "type": "employer"
+    }
+  },
+
+  {
+    "model": "authapp.userType",
+    "pk": 4,
+    "fields": {
+      "type": "agency"
+    }
+  },
+
+  {
+    "model": "common.Skill",
+    "pk": 1,
+    "fields": {
+      "label": "React"
+    }
+  },
+  {
+    "model": "common.Skill",
+    "pk": 2,
+    "fields": {
+      "label": "Django"
+    }
+  },
+  {
+    "model": "common.Skill",
+    "pk": 3,
+    "fields": {
+      "label": "Redux"
+    }
+  },
+  {
+    "model": "common.Skill",
+    "pk": 4,
+    "fields": {
+      "label": "NodeJs"
+    }
+  },
+  {
+    "model": "common.Skill",
+    "pk": 5,
+    "fields": {
+      "label": "Express"
+    }
+  },
+  {
+    "model": "common.Skill",
+    "pk": 6,
+    "fields": {
+      "label": "Python"
+    }
+  },
+  {
+    "model": "common.Skill",
+    "pk": 7,
+    "fields": {
+      "label": "TypeScript"
+    }
+  },
+  {
+    "model": "common.Skill",
+    "pk": 8,
+    "fields": {
+      "label": "JavaScript"
+    }
+  },
+  {
+    "model": "common.Skill",
+    "pk": 9,
+    "fields": {
+      "label": "HTML"
+    }
+  },
+  {
+    "model": "common.Skill",
+    "pk": 10,
+    "fields": {
+      "label": "CSS"
+    }
+  },
+
+  {
+    "model": "common.Degree",
+    "pk": 1,
+    "fields": {
+      "label": "License"
+    }
+  },
+  {
+    "model": "common.Degree",
+    "pk": 2,
+    "fields": {
+      "label": "Master"
+    }
+  },
+  {
+    "model": "common.Degree",
+    "pk": 3,
+    "fields": {
+      "label": "Phd"
+    }
+  },
+
+  {
+    "model": "common.Institute",
+    "pk": 1,
+    "fields": {
+      "label": "IGEE"
+    }
+  },
+  {
+    "model": "common.Institute",
+    "pk": 2,
+    "fields": {
+      "label": "INH"
+    }
+  },
+  {
+    "model": "common.Institute",
+    "pk": 3,
+    "fields": {
+      "label": "IEEE"
+    }
+  },
+  {
+    "model": "common.Institute",
+    "pk": 4,
+    "fields": {
+      "label": "INELEC"
+    }
+  },
+
+  {
+    "model": "common.Position",
+    "pk": 1,
+    "fields": {
+      "label": "frontend developer"
+    }
+  },
+
+  {
+    "model": "common.Position",
+    "pk": 2,
+    "fields": {
+      "label": "web developer"
+    }
+  },
+
+  {
+    "model": "common.companyType",
+    "pk": 1,
+    "fields": {
+      "label": "startup"
+    }
+  },
+
+  {
+    "model": "common.Sector",
+    "pk": 1,
+    "fields": {
+      "label": "Information And Technology"
+    }
+  },
+  {
+    "model": "common.Sector",
+    "pk": 2,
+    "fields": {
+      "label": "Energy"
+    }
+  },
+  {
+    "model": "common.Sector",
+    "pk": 3,
+    "fields": {
+      "label": "Human Resources"
+    }
+  },
+  {
+    "model": "common.offerType",
+    "pk": 1,
+    "fields": {
+      "label": "Intern"
+    }
+  },
+  {
+    "model": "common.offerType",
+    "pk": 2,
+    "fields": {
+      "label": "Full time"
+    }
+  },
+  {
+    "model": "common.offerType",
+    "pk": 3,
+    "fields": {
+      "label": "Part time"
+    }
+  },
+  {
+    "model": "common.offerType",
+    "pk": 4,
+    "fields": {
+      "label": "Freelance"
+    }
+  },
+
+  {
+    "model": "common.Language",
+    "pk": 1,
+    "fields": {
+      "label": "Français"
+    }
+  },
+
+  {
+    "model": "common.Language",
+    "pk": 2,
+    "fields": {
+      "label": "English"
+    }
+  },
+  {
+    "model": "common.Language",
+    "pk": 3,
+    "fields": {
+      "label": "عربية"
+    }
+  },
+  {
+    "model": "common.Language",
+    "pk": 4,
+    "fields": {
+      "label": "dutsh"
+    }
+  },
+  {
+    "model": "common.Site",
+    "pk": 1,
+    "fields": {
+      "label": "remote"
+    }
+  },
+  {
+    "model": "common.Site",
+    "pk": 2,
+    "fields": {
+      "label": "on site"
+    }
+  },
+  {
+    "model": "offers.offerCategorie",
+    "pk": 1,
+    "fields": {
+      "label": "Marketing"
+    }
+  },
+  {
+    "model": "offers.offerCategorie",
+    "pk": 2,
+    "fields": {
+      "label": "Development"
+    }
+  },
+  {
+    "model": "common.contractType",
+    "pk": 1,
+    "fields": {
+      "label": "CDD"
+    }
+  },
+  {
+    "model": "common.contractType",
+    "pk": 2,
+    "fields": {
+      "label": "CDI"
+    }
+  },
+  {
+    "model": "common.studyField",
+    "pk": 1,
+    "fields": {
+      "label": "Computer Engineering"
+    }
+  },
+  {
+    "model": "common.studyField",
+    "pk": 2,
+    "fields": {
+      "label": "Computer Science"
+    }
+  },
+  {
+    "model": "common.studyField",
+    "pk": 3,
+    "fields": {
+      "label": "Physics"
+    }
+  },
+  {
+    "model": "common.studyField",
+    "pk": 4,
+    "fields": {
+      "label": "Nectworking"
+    }
+  }
+
+]

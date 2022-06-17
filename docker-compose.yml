@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_USER=hireUp
+      - POSTGRES_PASSWORD=hireUp
+      - POSTGRES_DB=hireUp
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/posgresql/data
+  web:
+    build: .
+    command:
+      - /bin/bash
+      - -c
+      - |
+        while !</dev/tcp/db/5432; do sleep 1; done; python manage.py migrate
+        python manage.py loaddata ./fixtures/seeds.json
+        python manage.py initadmin                                
+        python manage.py runserver 0.0.0.0:8001
+
+    volumes:
+      - .:/code
+    ports:
+      - "8001:8001"
+    env_file:
+      - ./.env.dev.local
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:
